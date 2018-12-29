@@ -1,0 +1,194 @@
+a {
+  color: #666666;
+  font-size: 12px;
+}
+
+#footer {
+  height: 127px;
+}
+
+#footer .footer {
+  height: 127px;
+}
+
+.con2 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 143px;
+  background-color: #f0f0f0;
+}
+
+#header .header {
+  height: 143px;
+  background-color: #F0F0F0;
+  padding-top: 52px;
+}
+
+#header .header .img {
+  width: 196px;
+  height: 56px;
+  float: left;
+  margin-left: 70px;
+}
+
+#header .header p {
+  font-size: 18px;
+  color: #666;
+  padding-left: 20px;
+  float: left;
+  padding-top: 30px;
+}
+
+#header .header .text {
+  float: right;
+  width: 510px;
+  padding: 5px 10px;
+  background-color: #fdf7e9;
+  border: 1px solid #edae1b;
+  color: #666;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+#main {
+  height: 480px;
+  background-color: #C0314B;
+}
+
+#main .main {
+  height: 480px;
+  background: url(../images/login.jpg);
+  padding-top: 70px;
+}
+
+#main .main .zhuce {
+  width: 340px;
+  height: 320px;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: right;
+  border-radius: 5px;
+  padding: 0 30px 0 30px;
+}
+
+#main .main .zhuce h2 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  color: #90c31f;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+#main .main .zhuce .tel {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #FFF;
+  position: relative;
+}
+
+#main .main .zhuce .tel i {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background: url(../images/allbgs.png) no-repeat -62px 4px;
+}
+
+#main .main .zhuce .tel input {
+  float: right;
+  height: 38px;
+  font-size: 16px;
+  color: #666;
+  line-height: 38px;
+  width: 230px;
+}
+
+#main .main .zhuce .tel input::placeholder {
+  font-size: 14px;
+}
+
+#main .main .zhuce #tips {
+  color: #FD7B25;
+  margin-top: -8px;
+}
+
+#main .main .zhuce .psw {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: #FFF;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#main .main .zhuce .psw i {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background: url(../images/allbgs.png) no-repeat -62px -31px;
+}
+
+#main .main .zhuce .psw input {
+  float: right;
+  height: 38px;
+  font-size: 16px;
+  color: #666;
+  line-height: 38px;
+  width: 230px;
+}
+
+#main .main .zhuce .psw input::placeholder {
+  font-size: 14px;
+}
+
+#main .main .zhuce .auto {
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#main .main .zhuce .auto input {
+  margin-right: 6px;
+}
+
+#main .main .zhuce h6 {
+  width: 100%;
+  height: 40px;
+  background-color: #f60;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#main .main .zhuce .ljzc a {
+  float: right;
+  color: #f60;
+}
+
+#main .main .zhuce .ljzc a i {
+  float: right;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/tubiao.png) no-repeat -412px -940px;
+  margin-left: 5px;
+}
+
+#main .main .zhuce .ljzc a:hover {
+  color: #90c31f;
+}

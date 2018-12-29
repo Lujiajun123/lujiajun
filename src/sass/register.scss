@@ -1,0 +1,184 @@
+@import "var";
+a {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+}
+#footer {
+    height: 127px;
+    .footer {
+        height: 127px;
+    }
+}
+.con2 {
+    width: 1000px;
+    margin: 0 auto;
+}
+#header {
+    height: 143px;
+    background-color: #f0f0f0;
+    .header {
+        height: 143px;
+        background-color: #F0F0F0;
+        padding-top: 52px;
+        .img {
+            width: 196px;
+            height: 56px;
+            float: left;
+            margin-left: 70px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+            padding-left: 20px;
+            float: left;
+            padding-top: 30px;
+        }
+        .text {
+            float: right;
+            width: 510px;
+            padding: 5px 10px;
+            background-color: #fdf7e9;
+            border: 1px solid #edae1b;
+            color: #666;
+            line-height: 20px;
+            font-size: 12px;
+            
+        }
+    }
+}
+#main {
+    height: 480px;
+    background-color: #C0314B;
+    .main {
+        height: 480px;
+        background: url(../images/login.jpg);
+        padding-top: 40px;
+        .zhuce {
+            width: 340px;
+            height: 400px;
+            background-color: rgba(255,255,255,.8);
+            float: right;
+            border-radius: 5px;
+            padding: 38px 30px 0 30px;
+            position: relative;
+            
+            h2 {
+                float: left;
+                height: 46px;
+                font-size: 24px;
+                color: #FF6600;
+                font-weight: 800;
+            }
+            .denglu {
+                float: right;
+                height: 46px;
+                font-size: 12px;
+                padding-top: 10px;
+                a {
+                    color: #f60;
+                    i {
+                        float: right;
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        line-height: 30px;
+                        display: inline-block;
+                        background: $imgurl no-repeat -412px -940px;
+                    }
+                }
+            }
+            .tel,.pic,.psw,.yzm {
+                height: 40px;
+                width: 100%;
+                border: 1px solid #999;
+                float: left;
+                // border-radius: 3px;
+                margin-bottom: 10px;
+                background: #fff;
+                position: relative;
+                i {
+                    display: block;
+                    background: $imgurl no-repeat -502px -911px;
+                    width: 29px;
+                    height: 24px;
+                    line-height: 24px;
+                    float: left;
+                    position: absolute;
+                    top: 7px;
+                    left: 7px;
+                    border-right: 1px solid #999;
+                }
+                input {
+                    // background-color: pink;
+                    height: 38px;
+                    width: 230px;
+                    font-size: 16px;
+                    float: right;
+                    color: #333;
+                    // border-left:1px solid #999;
+                    &::placeholder {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .pic input{
+                float: left;
+                padding-left: 20px;
+                width: 150px;
+            }
+            .yzm input {
+                width: 130px;
+                // background-color: pink;
+            }
+            .yzm {
+                i {
+                    background-position: -526px -911px;
+                }
+                #yzmbtn {
+                    width: 80px;
+                    height: 30px;
+                    background-color: #f60;
+                    float: right;
+                    margin: 4px 10px;
+                    color: #fff;
+                    border-radius: 5px;
+                    font-size: 20px;
+                }
+            }
+            .psw {
+                margin-bottom: 25px;
+                i {
+                    background-position: -550px -911px;
+                }
+            }
+            .tips {
+                position: absolute;
+                top: 226px;
+                left: 33px;
+                color: $mainColor;
+                font-size: 14px;
+            }
+            .btn {
+                width: 100%;
+                height: 36px;
+                background-color: #f60;
+                float: left;
+                border-radius: 3px;
+                color: #fff;
+                line-height: 36px;
+                font-size: 18px;
+                font-weight: 500;
+                text-align: center;
+                cursor:pointer;
+                margin-bottom: 10px;
+            }
+            .check {
+                float: left;
+                font-size: 12px;
+                input {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}

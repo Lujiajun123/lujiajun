@@ -1,0 +1,198 @@
+@import "var";
+// footer
+#footer {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 6px inset;
+    padding-top: 10px;
+    clear: both;
+    font-family: "宋体";
+    background: rgb(240, 240, 240);
+    .footer {
+        position: relative;
+        height: 390px;
+        text-align: center;
+        a {
+            color: #999;
+            font-size: 12px;
+            &:hover {
+                color: $mainColor;
+            }
+        }
+        .FTA-02 {
+            display: inline-block;
+            padding: 20px 0px 20px 70px;
+            border-top: 1px #fff solid;
+            border-bottom: 1px solid #E0E0E0;
+            ul {
+                display: block;
+                float: left;
+                width: 150px;
+                color: #666;
+                h4 {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                }
+                li {
+                    line-height: 19px;
+                }
+            }
+        }
+        .FTA-03 {
+            border-top: 1px #fff solid;
+            text-align: center;
+            padding: 14px 0;
+            a {
+                margin-right: 5px;
+            }
+            span {
+                color: #999;
+                font-size: 12px;
+            }
+            p {
+                text-align: center;
+                padding-top: 5px;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+        .FTA-04 {
+            width: 698px;
+            height: 40px;
+            background: url(../images/FTC-01-bg3gg.jpg) no-repeat; 
+            text-align: center;
+            display: block;
+            margin: 0px auto;
+            a {
+                // float: left;
+                display: inline-block;
+                width: 116px;
+                height: 40px;
+            }
+        }
+    }
+}
+// flow
+.pf_l {
+    position: fixed;
+    // display: none;
+    top: 20%;
+    left: 50%;
+    margin-left: -640px;
+    a {
+        width: 40px;
+        height: 40px;
+        background: $imgurl no-repeat;
+        display: block;
+    }
+    .pf_left_1 {
+        background-position: -70px -414px;
+        &:hover {
+            background-position: -30px -414px;
+        }
+    }
+    .pf_left_2 {
+        background-position: -70px -454px;
+        &:hover {
+            background-position: -30px -454px;
+        }
+    }
+    .pf_left_3 {
+        background-position: -70px -494px;
+        &:hover {
+            background-position: -30px -494px;
+        }
+    }
+    .pf_left_4 {
+        background-position: -70px -534px;
+        height: 41px;
+        &:hover {
+            background-position: -30px -534px;
+        }
+    }
+}
+.pf_r {
+    z-index: 100;
+    position: fixed;
+    width: 55px;
+    height: 305px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: 600px;
+    a {
+        width: 55px;
+        height: 61px;
+        background: $imgurl no-repeat;
+        display: block;
+        position: relative;
+    }
+    .pf_r_1 {
+        background-position: -309px -597px;
+        border-top: 1px solid #e8e8e8;
+        &:hover {
+            background-position: -364px -597px;
+        }
+    }
+    .pf_r_2 {
+        background-position: -309px -475px;
+        border-top: 1px solid #e8e8e8;
+        &:hover {
+            background-position: -364px -475px;
+        }
+    }
+    .pf_r_3 {
+        background-position: -309px -536px;
+        border-top: 1px solid #e8e8e8;
+        &:hover {
+            background-position: -364px -536px;
+        }
+    }
+    .pf_r_4 {
+        background-position: -309px -658px;
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        &:hover {
+            background-position: -364px -658px;
+        }
+    }
+    .pf_r_5 {
+        background-position: -309px -719px;
+        // border-top: 1px solid #e8e8e8;
+        &:hover {
+            background-position: -364px -719px;
+        }
+    }
+    .wx {
+        width: 198px;
+        height: 254px;
+        // background-color: blue;
+        background: $imgurl no-repeat -111px -461px;
+        position: absolute;
+        top: -161px;
+        left: -199px;
+        z-index: 19;
+    }
+    .yg {
+        width: 198px;
+        height: 47px;
+        background: $imgurl no-repeat -111px -414px;
+        position: absolute;
+        top: 126px;
+        left: -199px;
+        z-index: 19;
+    }
+    #shopcar_qty2 {
+        width: 30px;
+        height: 30px;
+        background-color: $mainColor;
+        border-radius: 50%;
+        position: absolute;
+        top: 187px;
+        left: -10px;
+        font-size: 14px;
+        color: #fff;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+    }
+}

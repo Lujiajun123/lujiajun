@@ -1,0 +1,204 @@
+a {
+  color: #666666;
+  font-size: 12px;
+}
+
+#footer {
+  height: 127px;
+}
+
+#footer .footer {
+  height: 127px;
+}
+
+.con2 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 143px;
+  background-color: #f0f0f0;
+}
+
+#header .header {
+  height: 143px;
+  background-color: #F0F0F0;
+  padding-top: 52px;
+}
+
+#header .header .img {
+  width: 196px;
+  height: 56px;
+  float: left;
+  margin-left: 70px;
+}
+
+#header .header p {
+  font-size: 18px;
+  color: #666;
+  padding-left: 20px;
+  float: left;
+  padding-top: 30px;
+}
+
+#header .header .text {
+  float: right;
+  width: 510px;
+  padding: 5px 10px;
+  background-color: #fdf7e9;
+  border: 1px solid #edae1b;
+  color: #666;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+#main {
+  height: 480px;
+  background-color: #C0314B;
+}
+
+#main .main {
+  height: 480px;
+  background: url(../images/login.jpg);
+  padding-top: 40px;
+}
+
+#main .main .zhuce {
+  width: 340px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  float: right;
+  border-radius: 5px;
+  padding: 38px 30px 0 30px;
+  position: relative;
+}
+
+#main .main .zhuce h2 {
+  float: left;
+  height: 46px;
+  font-size: 24px;
+  color: #FF6600;
+  font-weight: 800;
+}
+
+#main .main .zhuce .denglu {
+  float: right;
+  height: 46px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+#main .main .zhuce .denglu a {
+  color: #f60;
+}
+
+#main .main .zhuce .denglu a i {
+  float: right;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 30px;
+  display: inline-block;
+  background: url(../images/tubiao.png) no-repeat -412px -940px;
+}
+
+#main .main .zhuce .tel, #main .main .zhuce .pic, #main .main .zhuce .psw, #main .main .zhuce .yzm {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #999;
+  float: left;
+  margin-bottom: 10px;
+  background: #fff;
+  position: relative;
+}
+
+#main .main .zhuce .tel i, #main .main .zhuce .pic i, #main .main .zhuce .psw i, #main .main .zhuce .yzm i {
+  display: block;
+  background: url(../images/tubiao.png) no-repeat -502px -911px;
+  width: 29px;
+  height: 24px;
+  line-height: 24px;
+  float: left;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  border-right: 1px solid #999;
+}
+
+#main .main .zhuce .tel input, #main .main .zhuce .pic input, #main .main .zhuce .psw input, #main .main .zhuce .yzm input {
+  height: 38px;
+  width: 230px;
+  font-size: 16px;
+  float: right;
+  color: #333;
+}
+
+#main .main .zhuce .tel input::placeholder, #main .main .zhuce .pic input::placeholder, #main .main .zhuce .psw input::placeholder, #main .main .zhuce .yzm input::placeholder {
+  font-size: 14px;
+}
+
+#main .main .zhuce .pic input {
+  float: left;
+  padding-left: 20px;
+  width: 150px;
+}
+
+#main .main .zhuce .yzm input {
+  width: 130px;
+}
+
+#main .main .zhuce .yzm i {
+  background-position: -526px -911px;
+}
+
+#main .main .zhuce .yzm #yzmbtn {
+  width: 80px;
+  height: 30px;
+  background-color: #f60;
+  float: right;
+  margin: 4px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+#main .main .zhuce .psw {
+  margin-bottom: 25px;
+}
+
+#main .main .zhuce .psw i {
+  background-position: -550px -911px;
+}
+
+#main .main .zhuce .tips {
+  position: absolute;
+  top: 226px;
+  left: 33px;
+  color: #FD7B25;
+  font-size: 14px;
+}
+
+#main .main .zhuce .btn {
+  width: 100%;
+  height: 36px;
+  background-color: #f60;
+  float: left;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 36px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#main .main .zhuce .check {
+  float: left;
+  font-size: 12px;
+}
+
+#main .main .zhuce .check input {
+  margin-right: 6px;
+}

@@ -1,0 +1,230 @@
+@charset "UTF-8";
+#footer {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 6px inset;
+  padding-top: 10px;
+  clear: both;
+  font-family: "宋体";
+  background: #f0f0f0;
+}
+
+#footer .footer {
+  position: relative;
+  height: 390px;
+  text-align: center;
+}
+
+#footer .footer a {
+  color: #999;
+  font-size: 12px;
+}
+
+#footer .footer a:hover {
+  color: #FD7B25;
+}
+
+#footer .footer .FTA-02 {
+  display: inline-block;
+  padding: 20px 0px 20px 70px;
+  border-top: 1px #fff solid;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+#footer .footer .FTA-02 ul {
+  display: block;
+  float: left;
+  width: 150px;
+  color: #666;
+}
+
+#footer .footer .FTA-02 ul h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#footer .footer .FTA-02 ul li {
+  line-height: 19px;
+}
+
+#footer .footer .FTA-03 {
+  border-top: 1px #fff solid;
+  text-align: center;
+  padding: 14px 0;
+}
+
+#footer .footer .FTA-03 a {
+  margin-right: 5px;
+}
+
+#footer .footer .FTA-03 span {
+  color: #999;
+  font-size: 12px;
+}
+
+#footer .footer .FTA-03 p {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+
+#footer .footer .FTA-04 {
+  width: 698px;
+  height: 40px;
+  background: url(../images/FTC-01-bg3gg.jpg) no-repeat;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+#footer .footer .FTA-04 a {
+  display: inline-block;
+  width: 116px;
+  height: 40px;
+}
+
+.pf_l {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -640px;
+}
+
+.pf_l a {
+  width: 40px;
+  height: 40px;
+  background: url(../images/tubiao.png) no-repeat;
+  display: block;
+}
+
+.pf_l .pf_left_1 {
+  background-position: -70px -414px;
+}
+
+.pf_l .pf_left_1:hover {
+  background-position: -30px -414px;
+}
+
+.pf_l .pf_left_2 {
+  background-position: -70px -454px;
+}
+
+.pf_l .pf_left_2:hover {
+  background-position: -30px -454px;
+}
+
+.pf_l .pf_left_3 {
+  background-position: -70px -494px;
+}
+
+.pf_l .pf_left_3:hover {
+  background-position: -30px -494px;
+}
+
+.pf_l .pf_left_4 {
+  background-position: -70px -534px;
+  height: 41px;
+}
+
+.pf_l .pf_left_4:hover {
+  background-position: -30px -534px;
+}
+
+.pf_r {
+  z-index: 100;
+  position: fixed;
+  width: 55px;
+  height: 305px;
+  bottom: 20px;
+  left: 50%;
+  margin-left: 600px;
+}
+
+.pf_r a {
+  width: 55px;
+  height: 61px;
+  background: url(../images/tubiao.png) no-repeat;
+  display: block;
+  position: relative;
+}
+
+.pf_r .pf_r_1 {
+  background-position: -309px -597px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.pf_r .pf_r_1:hover {
+  background-position: -364px -597px;
+}
+
+.pf_r .pf_r_2 {
+  background-position: -309px -475px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.pf_r .pf_r_2:hover {
+  background-position: -364px -475px;
+}
+
+.pf_r .pf_r_3 {
+  background-position: -309px -536px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.pf_r .pf_r_3:hover {
+  background-position: -364px -536px;
+}
+
+.pf_r .pf_r_4 {
+  background-position: -309px -658px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.pf_r .pf_r_4:hover {
+  background-position: -364px -658px;
+}
+
+.pf_r .pf_r_5 {
+  background-position: -309px -719px;
+}
+
+.pf_r .pf_r_5:hover {
+  background-position: -364px -719px;
+}
+
+.pf_r .wx {
+  width: 198px;
+  height: 254px;
+  background: url(../images/tubiao.png) no-repeat -111px -461px;
+  position: absolute;
+  top: -161px;
+  left: -199px;
+  z-index: 19;
+}
+
+.pf_r .yg {
+  width: 198px;
+  height: 47px;
+  background: url(../images/tubiao.png) no-repeat -111px -414px;
+  position: absolute;
+  top: 126px;
+  left: -199px;
+  z-index: 19;
+}
+
+.pf_r #shopcar_qty2 {
+  width: 30px;
+  height: 30px;
+  background-color: #FD7B25;
+  border-radius: 50%;
+  position: absolute;
+  top: 187px;
+  left: -10px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}

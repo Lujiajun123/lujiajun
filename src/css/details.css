@@ -1,0 +1,385 @@
+@charset "UTF-8";
+a {
+  color: #666666;
+  font-size: 12px;
+}
+
+a:hover {
+  color: #FD7B25;
+}
+
+.site_map {
+  width: 1190px;
+  height: 25px;
+  margin: 15px auto;
+}
+
+.site_map div {
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  color: #666;
+  float: left;
+  padding: 0px 2px 0px 2px;
+}
+
+.site_map .site_map_img {
+  width: 20px;
+  height: 15px;
+  background: url(../images/tubiao.png) no-repeat;
+  background-position: left -92px;
+  margin-top: 5px;
+}
+
+.site_map .site_map_arrows {
+  font-family: 宋体;
+}
+
+.main_l {
+  width: 210px;
+  float: left;
+}
+
+.menu {
+  width: 210px;
+  border-top: 2px solid #90c31f;
+  float: left;
+}
+
+.menu > .menu_1ul > .menu_1li > span {
+  display: block;
+  width: 210px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 27px;
+  background: url(../images/tubiao.png) no-repeat left -786px;
+  background-color: #F5F5F5;
+  border: 1px solid #ccc;
+  border-top: 0 none;
+  cursor: pointer;
+  color: #90c31f;
+  font-size: 14px;
+}
+
+.menu > .menu_1ul > .menu_1li > span:hover {
+  color: #FD7B25;
+}
+
+.menu > .menu_1ul > .menu_1li > span.menu_1click {
+  background-position: left -757px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul {
+  width: 210px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  display: none;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .menu_2li {
+  width: 210px;
+  padding-left: 30px;
+  font-size: 12px;
+  color: #666;
+  line-height: 26px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .menu_2li .menu_3ul {
+  width: 210px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .menu_2li .menu_3ul .menu_3li {
+  height: 26px;
+  line-height: 26px;
+  padding-left: 20px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .menu_2li span {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 13px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .menu_2li span:hover {
+  color: #FD7B25;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 {
+  position: relative;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 .menu_3ul {
+  display: none;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 .menu_3ul .menu_3li {
+  padding-left: 30px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 .menu_3ul .menu_3li:hover {
+  color: #90c31f;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 span {
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 27px;
+  background: url(../images/tubiao.png) no-repeat left -786px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 span:hover {
+  color: #FD7B25;
+}
+
+.menu > .menu_1ul > .menu_1li .menu_2ul .has3 span.menu_2click {
+  background-position: left -757px;
+}
+
+.main_t {
+  height: 560px;
+}
+
+.main_t .main_t_l {
+  width: 402px;
+  height: 540px;
+  float: left;
+}
+
+.main_t .main_t_l .img {
+  width: 402px;
+  height: 402px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+.main_t .main_t_l .imgs {
+  width: 400px;
+  height: 70px;
+  background-color: pink;
+}
+
+.main_t .ewm {
+  float: right;
+}
+
+.main_t .ewm p {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.main_t .main_t_r {
+  width: 621px;
+  height: 498px;
+  float: right;
+  margin: -5px 10px 0 0;
+}
+
+.main_t .main_t_r .message_title {
+  padding: 0 5px;
+  color: #666666;
+}
+
+.main_t .main_t_r .details_top_name {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  overflow: hidden;
+}
+
+.main_t .main_t_r .details_top_name span {
+  float: left;
+  max-width: 550px;
+  overflow: hidden;
+}
+
+.main_t .main_t_r .details_top_name p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ff6600;
+}
+
+.main_t .main_t_r .details_top_message {
+  margin-bottom: 40px;
+  padding: 5px 0 10px 0;
+  border-bottom: 1px dotted #ccc;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.main_t .main_t_r .details_top_message .details_title_1 {
+  margin-left: 40px;
+}
+
+.main_t .main_t_r .details_top_message .details_top_message_price,
+.main_t .main_t_r .details_top_message .details_top_message_sales,
+.main_t .main_t_r .details_top_message .details_top_message_integral {
+  margin: 5px 0 0 5px;
+}
+
+.main_t .main_t_r .details_top_message .details_top_message_price {
+  position: relative;
+  height: 28px;
+}
+
+.main_t .main_t_r .details_top_message .details_top_message_price div, .main_t .main_t_r .details_top_message .details_top_message_price span {
+  float: left;
+}
+
+.main_t .main_t_r .details_top_message .details_top_message_price .message_integral {
+  width: 130px;
+  float: right;
+}
+
+.main_t .main_t_r .details_top_message .message_title_name {
+  letter-spacing: 6px;
+}
+
+.main_t .main_t_r .details_top_message .message_title_name b {
+  margin-left: -6px;
+  font-weight: 100;
+}
+
+.main_t .main_t_r .details_top_message .message_price {
+  color: #FF6600;
+  font-size: 20px;
+  margin-left: -10px;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+
+.main_t .main_t_r .details_top_message .message_price_drop i {
+  display: block;
+  width: 4px;
+  height: 4px;
+  float: left;
+  margin: 13px 0 0 0;
+  background: url(../images/tubiao.png) no-repeat -10px -928px;
+  overflow: hidden;
+}
+
+.main_t .main_t_r .details_top_message .message_price_drop b {
+  line-height: 19px;
+  font-weight: 100;
+  padding: 0 5px;
+  background-color: #f60;
+  color: #fff;
+}
+
+.main_t .main_t_r .details_top_message .message_price_kd {
+  margin: 0 30px;
+}
+
+.main_t .main_t_r .details_top_message .message_price_kd b {
+  text-decoration: line-through;
+  font-weight: 100;
+}
+
+.main_t .main_t_r .details_top_message .details_top_message_sales {
+  color: #FF6600;
+}
+
+.main_t .main_t_r .details_top_message .details_top_message_sales div {
+  float: left;
+  line-height: 30px;
+}
+
+.main_t .main_t_r .details_top_message .message_sales {
+  color: #FF6600;
+}
+
+.main_t .main_t_r .details_top_message .message_sales p {
+  height: 28px;
+  line-height: 28px;
+}
+
+.main_t .main_t_r .details_top_message .message_sales p img {
+  width: 26px;
+  height: 26px;
+  margin-top: 1px;
+  float: left;
+  overflow: hidden;
+}
+
+.main_t .main_t_r .details_top_message .message_sales p label {
+  float: left;
+  margin: 0 10px 0 5px;
+}
+
+.main_t .main_t_r .details_top_message .message_sales b {
+  height: 18px;
+  line-height: 18px;
+  font-weight: 100;
+  color: #fff;
+  background-color: #FF6600;
+  padding: 0 5px;
+  margin: 5px 5px 0 0;
+  float: left;
+}
+
+.main_t .main_t_r .shuliang {
+  height: 50px;
+  padding-left: 60px;
+}
+
+.main_t .main_t_r .shuliang button {
+  width: 20px;
+  height: 22px;
+  line-height: 19px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  margin: 3px 0 0 0;
+  cursor: pointer;
+}
+
+.main_t .main_t_r .shuliang input {
+  width: 40px;
+  height: 22px;
+  line-height: 22px;
+  margin: 0 3px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+.main_t .main_t_r .details_btn .details_purchasebtn {
+  background-color: #f60;
+  margin-left: 70px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  width: 150px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #ff6600;
+}
+
+.main_t .main_t_r .details_btn .details_shoppingbtn {
+  color: #ff6600;
+  cursor: pointer;
+  text-indent: 20px;
+  background: url(../images/tubiao.png) no-repeat 20px -39px;
+  border-radius: 3px;
+  font-size: 16px;
+  float: left;
+  width: 150px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #ff6600;
+  margin-left: 10px;
+}
